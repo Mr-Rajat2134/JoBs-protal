@@ -17,7 +17,7 @@ function SearchBar(props) {
   }
 
   const search = async()=>{
-    await props.fetchJobsCostum(jobCriteria)
+    await props.fetchJobsCustom(jobCriteria)
 
   }
 
